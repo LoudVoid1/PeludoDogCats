@@ -1,0 +1,104 @@
+body {
+
+    background-color: black;
+
+}
+
+h1 {
+    font-size: 10rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(86, 29, 161);
+    position: relative;
+}
+h1::before {
+
+    content: "GATOS";
+    position: absolute;
+    width: 0%;
+    height: 150%;
+    overflow: hidden;
+    color: blueviolet;
+    border-right: 2px solid rgb(37, 17, 155);
+    transition: 0.9s ease-in-out;
+    font-size: 10rem;
+}
+
+
+h1:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 25px blueviolet);
+}
+
+.gaturro :any-link {
+
+    color: goldenrod;
+    margin-bottom: 600px;
+    align-items: center;
+
+}
+
+.gaturro2 link ,:any-link {
+
+    color: rebeccapurple;
+    margin-right: 20px;
+    padding-left: 20%;
+    overflow: auto;
+    text-decoration: none;
+}
+
+
+.inicioo {
+
+    color: red;
+    font-size: 40px;
+    
+
+}
+
+.inicioo:hover {
+    background-color: transparent;
+    color: blueviolet;
+    border-radius: 2px;
+    border-color: blueviolet;
+}
+
+li , ol
+{
+
+    color: rgb(33, 30, 210);
+    padding-left: 5%;
+    overflow: hidden;
+}
+
+li:hover, ol:hover {
+
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+
+}
+
+.gaturro3 :any-link {
+    color: darkred;
+    margin-bottom: 600px;
+    align-items: center;
+}
+
+
+:any-link
+{
+
+    font-size: 30px;
+
+}
+
+:any-link:hover
+{
+
+    color: rgb(71, 33, 160);
+    background-color: transparent;
+
+}

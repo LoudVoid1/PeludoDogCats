@@ -1,0 +1,80 @@
+
+* {
+
+ background-color: black;   
+
+}
+
+
+h1 {
+
+    font-size: 100px;
+    color: darkgreen;
+
+}
+
+h1:hover {
+
+    background-color: transparent;
+    border: 20px;
+    border-color: transparent;
+    color: chartreuse;
+
+}
+
+
+:any-link {
+
+    color: green;
+    border: 20px;
+    background-color: rgb(1, 31, 1);
+    text-decoration: none;
+    font-size: 80px;
+}
+
+:any-link:hover {
+
+    color: greenyellow;
+    overflow: auto;
+    text-decoration: none;
+
+}
+
+.INSTAGRAMS {
+
+    color: blueviolet;
+    border: 20px;
+    background-color: rgb(1, 31, 1);
+    text-decoration: none;
+    font-size: 80px;
+    
+}
+
+
+
+.FACEBOOKS {
+
+    color:darkturquoise;
+    border: 20px;
+    background-color: rgb(1, 31, 1);
+    text-decoration: none;
+    font-size: 80px;
+}
+
+.GITHUB {
+
+    color:rgb(0, 0, 0);
+    border: 20px;
+    background-color: rgb(1, 31, 1);
+    text-decoration: none;
+    font-size: 80px;
+}
+
+.TWITTERSX {
+
+    color:blue;
+    border: 20px;
+    background-color: rgb(1, 31, 1);
+    text-decoration: none;
+    font-size: 80px;
+}

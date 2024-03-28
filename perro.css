@@ -1,0 +1,120 @@
+body {
+    background-color:  black;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: transparent;
+    -webkit-text-stroke: 3px darkorange;
+    position: relative;
+}
+h1::before {
+
+    content: "PERROS";
+    position: absolute;
+    width: 0%;
+    height: 18%;
+    overflow: hidden;
+    color: orangered;
+    border-right: 2px solid orangered;
+    transition: 0.9s ease-in-out;
+}
+
+h1:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 25px orangered);
+}
+
+
+.perruno :any-link {
+
+    color: goldenrod;
+    margin-bottom: 600px;
+    align-items: center;
+
+}
+
+.perruno2 link ,:any-link {
+
+    color: rebeccapurple;
+    margin-right: 20px;
+    padding-left: 20%;
+    overflow: auto;
+    text-decoration: none;
+}
+
+
+
+.inicioo {
+
+    color: red;
+    font-size: 40px;
+    
+
+}
+
+.inicioo:hover {
+    background-color: transparent;
+    color: darkgoldenrod;
+    border-radius: 2px;
+    border-color: goldenrod;
+}
+
+li , ol
+{
+
+    color: chocolate;
+    padding-left: 5%;
+    overflow: hidden;
+}
+
+li:hover, ol:hover {
+
+    background-color: transparent;
+    color: red;
+    font-size: 20px;
+
+}
+
+.link200 {
+
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    background-color: orangered;
+    height: 200px;
+    width: 10%;
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+.link200:hover
+{
+
+    color: red;
+    overflow: scroll;
+    border-radius: 20px;
+    border: red;
+    text-decoration: none;
+
+}
+
+
+.perruno3 :any-link {
+    color: darkred;
+    margin-bottom: 600px;
+    align-items: center;
+}
+
+:any-link:hover
+{
+
+    color: red;
+    background-color: transparent;
+
+}

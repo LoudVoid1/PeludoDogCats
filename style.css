@@ -1,0 +1,105 @@
+body {
+    background-color:  black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 15rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: transparent;
+    -webkit-text-stroke: 3px rgb(192, 0, 0);
+    position: relative;
+}
+h1::before {
+
+    content: "Ayuda a un Peludo";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: rgb(128, 0, 0);
+    border-right: 8px solid rgb(128, 0, 0);
+    transition: 0.9s ease-in-out;
+}
+
+h1:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 25px rgb(172, 0, 0));
+}
+
+
+a {
+
+    display: block;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: rgb(92, 0, 0);
+    color: rgb(204, 0, 0);
+    text-decoration: none;
+    overflow: auto;
+    font-size: 40px;
+}
+
+a:hover {
+
+    background-color: transparent;
+    border: 2px solid red
+
+}
+
+.p1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px;
+    background-color: darkturquoise;
+    margin-top: 500px;
+}
+
+.p2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px;
+    background-color: gold;
+    margin-top: 500px;
+}
+
+.p3 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px;
+    background-color: darkorange;
+    margin-top: 500px;
+}
+
+.p4 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 25px;
+    background-color: red;
+    margin-top: 500px;
+}
+
+
+p, h2 {
+
+    font-size: 50px;
+    color: darkmagenta;
+    text-align: center;
+
+}
+
+p:hover, h2:hover
+{
+
+    color: purple;
+    border: 20px;
+    border-color: rebeccapurple;
+    
+
+}
